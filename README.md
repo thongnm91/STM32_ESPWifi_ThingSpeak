@@ -2,11 +2,7 @@
 
 This project implements an Internet-of-Things (IoT) temperature and humidity monitoring system using the **NUCLEO-L152RE development board**, **DHT22 sensor**, and **ESP-05 WiFi module**.  
 Sensor data is measured on the STM32, transmitted over UART to the ESP-05, and forwarded to the cloud service **ThingSpeak** for online visualization.
-
-This work follows the requirements of LAB6:  
-*“IoT application with NUCLEO-L152RE and ESP-05 Wi-Fi module.”*  
-:contentReference[oaicite:0]{index=0}
-
+ThingSpeak link: https://thingspeak.mathworks.com/channels/3146970 
 ---
 
 ## Project Photos
@@ -28,7 +24,6 @@ This work follows the requirements of LAB6:
 - Interface and read the **DHT22** temperature & humidity sensor  
 - Connect the device to a mobile Wi-Fi hotspot (tethering)  
 - Upload sensor data to the **ThingSpeak** IoT platform using AT commands  
-:contentReference[oaicite:1]{index=1}
 
 ---
 
@@ -42,7 +37,6 @@ This work follows the requirements of LAB6:
 - 1 × Laboratory PC with Atollic TrueSTUDIO, STM32CubeMX, RealTerm  
 - 100 nF ceramic capacitor  
 - 100 µF electrolytic capacitor  
-:contentReference[oaicite:2]{index=2}
 
 ---
 
